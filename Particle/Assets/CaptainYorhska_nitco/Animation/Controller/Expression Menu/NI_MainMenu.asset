@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: NI_MainMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Face Menu
+    icon: {fileID: 2800000, guid: af1ba8919b0ccb94a99caf43ac36f97d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ab168af53368d424e9bce240d549c1c6, type: 2}
+    subParameters: []
+    labels: []
+  - name: Object Menu
+    icon: {fileID: 2800000, guid: 16e0846165acaa1429417e757c53ef9b, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 37919aced716be64a844a76590aac765, type: 2}
+    subParameters: []
+    labels: []
+  - name: Radial Puppet FX
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: RadiFX
+    labels: []
+  - name: StandSwitch
+    icon: {fileID: 2800000, guid: 44b822c693fbd174d8f994ee312dd8e4, type: 3}
+    type: 102
+    parameter:
+      name: Move
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Emote
+    icon: {fileID: 2800000, guid: 9a20b3a6641e1af4e95e058f361790cb, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c7d2f4c8411f5494990e8c7f00b1d4c4, type: 2}
+    subParameters: []
+    labels: []
+  - name: Two Puppet Gesture
+    icon: {fileID: 2800000, guid: 5acca5d9b1a37724880f1a1dc1bc54d3, type: 3}
+    type: 201
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: PupGesX
+    - name: PupGesY
+    labels:
+    - name: Up
+      icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
+    - name: Right
+      icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
+    - name: Down
+      icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
+    - name: Left
+      icon: {fileID: 2800000, guid: 29b4286f41c93f84f9ffc6ca7551f2d3, type: 3}
+  - name: Two Pupeet FX
+    icon: {fileID: 2800000, guid: 7f83deb51b30514499addc7b843db4e1, type: 3}
+    type: 201
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: PupFXX
+    - name: PupFXY
+    labels:
+    - name: Smile
+      icon: {fileID: 2800000, guid: af1ba8919b0ccb94a99caf43ac36f97d, type: 3}
+    - name: Angry
+      icon: {fileID: 2800000, guid: 48e41265a34c05d45b49ca189dc1a992, type: 3}
+    - name: Gasp
+      icon: {fileID: 2800000, guid: 50865644fb00f2b4d88bf8a8186039f5, type: 3}
+    - name: Happy
+      icon: {fileID: 2800000, guid: 7f83deb51b30514499addc7b843db4e1, type: 3}
+  - name: Tracking
+    icon: {fileID: 2800000, guid: 44b822c693fbd174d8f994ee312dd8e4, type: 3}
+    type: 102
+    parameter:
+      name: Track
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
